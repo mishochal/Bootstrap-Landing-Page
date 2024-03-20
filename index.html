@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="px-5 py-2 sticky-top bg-white shadow">
+        <nav class="navbar navbar-expand-lg mx-auto" style="max-width: 1250px;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="main-logo" src="https://cartzilla.createx.studio/img/logo-dark.png" alt="Main Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown active-link on-hover-link"
+                                href="./index.html" role="button" data-bs-auto-close="outside" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>NFT Marketplace</span>
+                                        <span class="bg-danger badge ms-1 text-white">NEW</span>
+                                        <p class="small text-muted m-0">NFTs, Multi-vendor, Auctions</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-nft.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th08.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Fashion Store v.1</span>
+                                        <p class="small text-muted m-0">Classic shop layout</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-fashion-store-v1.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th01.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Electronics Store</span>
+                                        <p class="small text-muted m-0">Slider + Promo banners</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-electronics-store.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th03.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Marketplace</span>
+                                        <p class="small text-muted m-0">Multi-vendor, digital goods</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-marketplace.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th04.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Grocery Store</span>
+                                        <p class="small text-muted m-0">Full width + Side menu</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-grocery-store.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th06.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Food Delivery Service</span>
+                                        <p class="small text-muted m-0">Food & Beverages delivery</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-food-delivery.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th07.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Fashion Store v.2</span>
+                                        <p class="small text-muted m-0">Slider + featured categories</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-fashion-store-v2.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th02.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                                <li class="dropend position-static">
+                                    <a class="on-hover-link dropdown-item hidden-dropdown dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>Single Product Store</span>
+                                        <p class="small text-muted m-0">Single product / mono brand</p>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0 h-100">
+                                        <a href="https://cartzilla.createx.studio/home-single-store.html"
+                                            class="position-absolute h-100 top-0 start-0 p-2 bg-white rounded shadow">
+                                            <img class="h-100"
+                                                src="https://cartzilla.createx.studio/img/home/preview/th05.jpg"
+                                                alt="Product Img">
+                                        </a>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown  mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown on-hover-link" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <div class="d-flex">
+                                    <div class="col me-5">
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">Shop layouts</h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop Grid -
+                                                        Left Sidebar</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop Grid -
+                                                        Right Sidebar</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop Grid -
+                                                        Filters on Top</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop List -
+                                                        Left Sidebar</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop List -
+                                                        Right Sidebar</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop List -
+                                                        Filters on Top</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">Marketplace</h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Category
+                                                        Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single Item
+                                                        Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Vendor
+                                                        Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Cart</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2"
+                                                        href="#">Checkout</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">Grocery store</h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Product
+                                                        Catalog</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single
+                                                        Product Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2"
+                                                        href="#">Checkout</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col me-5">
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">Food delivery</h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Category
+                                                        Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single Item
+                                                        (Restaurant)</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Cart (Your
+                                                        Order)</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout
+                                                        (Address & Payment)</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">NFT marketplace
+                                                    <span class="bg-danger badge ms-1 text-white">NEW</span>
+                                                </h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Catalog
+                                                        v.1</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Catalog
+                                                        v.2</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single Item
+                                                        - Auction Live</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single Item
+                                                        - Auction Ended</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Single Item
+                                                        - Buy Now</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Vendor
+                                                        Page</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Connect
+                                                        Wallet</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Create New
+                                                        Item</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col me-5">
+                                        <div class="px-4 mb-4">
+                                            <div>
+                                                <h6 class="text-dark mb-3">Shop pages</h6>
+                                            </div>
+                                            <div>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Shop
+                                                        Categories</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Product
+                                                        Page v.1</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Product
+                                                        Page v.2</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Cart</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout -
+                                                        Details</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout -
+                                                        Shipping</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout -
+                                                        Payment</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout -
+                                                        Review</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Checkout -
+                                                        Complete</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Order
+                                                        Tracking</a>
+                                                </li>
+                                                <li><a class="on-hover-link dropdown-item p-0 my-2" href="#">Product
+                                                        Comparison</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown on-hover-link" href="#" role="button"
+                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Account
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Shop User Account
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Orders History
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Profile Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Account Adrresses
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Payment Methods
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Whishlist
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                My Tickets
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Single Ticket
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Vendor Dashboard
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Purchases
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Favourites
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Sales
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Products
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Add New Product
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Payouts
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        <span>NFT Marketplace</span>
+                                        <span class="bg-danger badge ms-1 text-white">NEW</span>
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Profile Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Wallet & Payouts
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                My Items
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                My Collections
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Favourites
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Notifications
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="on-hover-link dropdown-item py-2" href="#">Sign In / Sign Up</a></li>
+                                <li><a class="on-hover-link dropdown-item py-2" href="#">Password Recovery</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown on-hover-link" href="#" role="button"
+                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2 border-bottom"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Navbar Variants
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                1 Level Light
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                1 Level Dark
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                2 Level Light
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                2 Level Dark
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                3 Level Light
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                3 Level Dark
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Electronics Store
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Marketplace
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Side Menu (Grocery)
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="on-hover-link dropdown-item py-2" href="#">About us</a></li>
+                                <li><a class="on-hover-link dropdown-item py-2" href="#">Contact</a></li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Help Center
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Help Topics
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Single Topic
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Submit a Request
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        404 Not Found
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                404 Simple Text
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                404 Illustration
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="on-hover-link dropdown-item py-2 border-top" href="#">Sticy Footer
+                                        Demo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown on-hover-link" href="#" role="button"
+                                data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Blog List Layouts
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                List with Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                List no Sidebar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Blog Grid Layouts
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Grid with Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Grid no Sidebar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="dropend">
+                                    <a class="on-hover-link dropdown-item dropdown-toggle py-2"
+                                        data-bs-toggle="dropdown" href="#">
+                                        Single Post Layouts
+                                    </a>
+                                    <ul class="dropdown-menu m-0 border-0">
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Article with Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="on-hover-link dropdown-item">
+                                                Article no Sidebar
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown mx-2">
+                            <a class="nav-link dropdown-toggle hidden-dropdown on-hover-link" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Docs / Components
+                            </a>
+                            <ul class="dropdown-menu border-0">
+                                <li>
+                                    <a class="dropdown-item py-2 border-bottom" href="#">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div>
+                                                <i class="text-muted fs-5 bi bi-journals"></i>
+                                            </div>
+                                            <div>
+                                                <span>Documentation</span>
+                                                <p class="small text-muted m-0">Kick-start customization</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2 border-bottom" href="#">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div>
+                                                <i class="text-muted fs-5 bi bi-hdd-stack"></i>
+                                            </div>
+                                            <div>
+                                                <span>Components</span>
+                                                <span class="bg-info text-white badge ms-1">40+</span>
+                                                <p class="small text-muted m-0">Faster page building</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2 border-bottom" href="#">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div>
+                                                <i class="text-muted fs-5 bi bi-pencil-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>Changelog</span>
+                                                <span class="bg-success text-white badge ms-1">v2.5.1</span>
+                                                <p class="small text-muted m-0">Regular Updates</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item py-2" href="#">
+                                        <div class="d-flex gap-2 align-items-center">
+                                            <div>
+                                                <i class="text-muted fs-5 bi bi-info-circle"></i>
+                                            </div>
+                                            <div>
+                                                <span>Support</span>
+                                                <p class="small text-muted m-0">support@createx.studio</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                    target="_blank">
+                    <button type="button" class="btn btn-danger px-4 py-2">
+                        <i class="bi bi-cart2 me-1"></i>
+                        <span>Buy now</span>
+                    </button>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="introduction py-5">
+            <div class="introduction-content py-5 my-5 text-center">
+                <h1 class="text-light mb-3">
+                    <span class="fw-light">Multipurpose</span>
+                    <span>Bootstrap 5</span>
+                    <br>
+                    <span>E-Commerce</span>
+                    <span class="fw-light">Template</span>
+                </h1>
+
+                <p class="text-light fs-4 mb-1 d-flex justify-content-center align-items-center gap-3">
+                    <span class="fw-light opacity-50 fs-5">Single / Multi-vendor</span>
+                    <span>Marketplace</span>
+                    <span class="fw-light opacity-50 fs-5">Fashion</span>
+                    <span>Electronics</span>
+                    <span class="fw-light opacity-50 fs-5">Cart</span>
+                </p>
+
+                <p class="text-light fs-4 d-flex justify-content-center align-items-center gap-3">
+                    <span>NFT</span>
+                    <span class="fw-light opacity-50 fs-5">Checkout</span>
+                    <span>Grocery store</span>
+                    <span class="fw-light opacity-50 fs-5">Account / Dashboard</span>
+                    <span>Food Delivery</span>
+                </p>
+            </div>
+
+            <a href="#demos" class="d-flex justify-content-center mb-5 text-decoration-none">
+                <button type="button"
+                    class="btn btn-danger px-4 py-3 fs-6 d-flex gap-2 justify-content-center align-items-center">
+                    <span>View Demos</span>
+                    <i class="bi bi-arrow-down-circle"></i>
+                </button>
+            </a>
+        </section>
+
+        <section id="demos" class="demos-container container pt-5">
+            <div class="text-center my-5 text-muted">
+                <h2 class="mb-3">
+                    <span class="fw-light">Explore</span>
+                    <span>Cartzilla Demos</span>
+                </h2>
+                <p>Explore the collection of carefully built homepages. More to come soon!</p>
+            </div>
+
+            <div class="row mb-5">
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/08.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-nft.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-nft.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-nft.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        NFT Marketplace
+                    </a>
+                </div>
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/01.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-fashion-store-v1.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-fashion-store-v1.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-fashion-store-v1.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Fashion Store v.1
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/03.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-electronics-store.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-electronics-store.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-electronics-store.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Electronics Store
+                    </a>
+                </div>
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/07.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-food-delivery.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-food-delivery.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-food-delivery.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Food Delivery Service
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/04.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-marketplace.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-marketplace.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-marketplace.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Multi-vendor Marketplace
+                    </a>
+                </div>
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/06.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-grocery-store.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-grocery-store.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-grocery-store.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Grocery Store
+                    </a>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/02.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-fashion-store-v2.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-fashion-store-v2.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-fashion-store-v2.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Fashion Store v.2
+                    </a>
+                </div>
+                <div class="demo-card col mx-1 text-center">
+                    <div class="img-container position-relative cursor-pointer border rounded p-0">
+                        <img class="w-100" src="https://cartzilla.createx.studio/img/home/preview/05.jpg"
+                            alt="Product Image">
+                        <a href="https://cartzilla.createx.studio/home-single-store.html"
+                            class="w-100 d-block h-100 position-absolute top-0 rounded overlay-link"></a>
+                        <div class="d-flex gap-3 position-absolute top-50 start-50 translate-middle on-hover">
+                            <a class="text-dark" href="https://cartzilla.createx.studio/home-single-store.html">
+                                <i class="bi bi-eye bg-white p-3 rounded"></i>
+                            </a>
+                            <a class="text-dark"
+                                href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                                target="_blank">
+                                <i class="bi bi-cart2 bg-white p-3 rounded"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="https://cartzilla.createx.studio/home-single-store.html"
+                        class="d-inline-block text-decoration-none fs-5 mt-3 on-hover-link">
+                        Single Product / Brand Store
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-5 cartzilla-pages">
+            <div class="row justify-content-between mx-auto" style="max-width: 1250px;">
+                <div class="col-4 py-5 my-3">
+                    <div class="text-white">
+                        <h2 class="mb-0">
+                            <span class="fw-light">Complete</span>
+                            <span>E-Commerce</span>
+                        </h2>
+                        <h2 class="mb-3">
+                            <span>Front-End</span>
+                            <span class="fw-light">Solution</span>
+                        </h2>
+                        <p class="text-secondary fw-bold mb-4">All you need for your next e-commerce project</p>
+                    </div>
+
+                    <div>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Shop Grid / List Layout Options</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Multiple Product Page Variations</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Complete Order Workflow: Cart + Checkout</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Shop Customer Account Pages</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Vendor Dashboard for Multi-vendor Marketplaces</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Ready for any Content: Fashion, Electronics, Digital
+                                    (Downloadable) Products, etc.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Blog Pages: Blog Layouts + Single Post</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Help Center / Support Pages</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">Secondary Pages: About, Contacts, 404, etc.</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-circle text-success"></i>
+                                <span class="text-white mx-1">40+ Flexible Components</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-7">
+                    <img class="w-100" src="https://cartzilla.createx.studio/img/intro/pages-showcase.jpg"
+                        alt="Projects Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="mobile-interface bg-light py-5">
+            <div class="row justify-content-center align-items-center mx-auto" style="max-width: 1250px;">
+                <div class="col-5 px-5 text-center text-secondary">
+                    <h2 class="px-3 mb-3">
+                        <span class="fw-light">Even More</span>
+                        <span>Mobile Friendly</span>
+                        <span class="fw-light">Interface</span>
+                    </h2>
+                    <p class="px-3">
+                        New <strong>Toolbar</strong> designed specifically for handheld devices to further improve
+                        user experience.
+                    </p>
+                    <p class="px-3 text-dark">Scan QR code below to test on your device:</p>
+                    <div class="px-5">
+                        <img class="mx-5" style="width: 150px;"
+                            src="https://cartzilla.createx.studio/img/intro/qrcode.png" alt="QR Code Image">
+                    </div>
+                </div>
+                <div class="col-5">
+                    <img src="https://cartzilla.createx.studio/img/intro/handheld-toolbar.jpg"
+                        alt="Mobile Interface Image">
+                </div>
+            </div>
+        </section>
+
+        <section class="features py-5 border-bottom">
+
+            <h2 class="text-center my-5">
+                <span>Cartzilla Feature</span>
+                <span class="fw-light">Highlights</span>
+            </h2>
+
+            <div class="row justify-content-center px-5 mx-auto mb-5" style="max-width: 1250px;">
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/01.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Kick-start Your Development</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Start your development process fast and easy with Node.js and Gulp setup. Configuration files
+                        are included in download package. Full tasks automation.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/02.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Easy to Customize with Sass</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Cartzilla is built using Sass. Easily change colors, typography and much more. It is the most
+                        mature, stable, and powerful CSS extension language in the world.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/03.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Pug - Node Templating Engine</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        No need to write huge amount of HTML, if you don’t want to. Pug provides features not available
+                        in plain HTML like variables, includes, mixins, functions, etc.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/04.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Built With Bootstrap 5</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Cartzilla is the powerful e-commerce front-end solution based on Bootstrap 5 - the world's most
+                        popular responsive, mobile-first front-end component library.
+                    </small>
+                </div>
+            </div>
+            <div class="row justify-content-center px-5 mx-auto mb-5" style="max-width: 1250px;">
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/05.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">40+ Flexible Components</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Besides styling all default Bootstrap 5 components Cartzilla introduces lots of new flexible,
+                        customizable and reusable elements you can use across the website.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/06.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Mobile Friendly Interface</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        It's not a surprise that nowadays over 70% of users shop online using
+                        their mobile devices. Cartzilla is 100% responsive and optimized for small touch screens.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/07.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Google Fonts</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Cartzilla uses Google fonts which are free, fast to load and of very high quality. Currently
+                        Google fonts library includes 870+ font families to choose from.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/08.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Touch-enabled Sliders</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        In the era of touch screens it's important to ensure great user experience on handheld devices,
+                        especially when it comes to such frequently used interface component as slider.
+                    </small>
+                </div>
+            </div>
+            <div class="row justify-content-center px-5 mx-auto mb-5" style="max-width: 1250px;">
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/09.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Vector Based HD Ready Icons</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Cartzilla is equiped with font-based icon pack to ensure that infographics and interface icons
+                        look sharp on any device with any screen resolution and pixel density.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/10.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">W3C Valid HTML Code</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        All HTML files are checked via W3C validator to ensure 100% valid code. As you probably know
+                        invalid HTML limits innovation, but Cartzilla is innovative at its core.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/11.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Future-proof JavaScript</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Cartzilla core scripts as well as all dependencies are written in vanilla JS. And now with
+                        Bootstrap 5 we finally drops jQuery and uses ES6 modules.
+                    </small>
+                </div>
+                <div class="col text-center">
+                    <img width="90" src="https://cartzilla.createx.studio/img/intro/features/12.png" alt="Feature Icon">
+                    <h6 class="mb-3 text-dark">Detailed Documentation</h6>
+                    <small class="text-secondary lh-sm d-block">
+                        Download package includes links to online documentation. It covers all crucial information about
+                        how to get started, customize template and components usage.
+                    </small>
+                </div>
+            </div>
+
+            <h5 class="text-center mb-5">And much more...</h5>
+        </section>
+
+        <section class="premium text-center py-5 border-bottom">
+            <h3 class="fw-light">Still not convinced?</h3>
+            <h2>Add premium support and lifetime updates to this.</h2>
+            <a href="https://themes.getbootstrap.com/product/cartzilla-bootstrap-e-commerce-template-ui-kit/"
+                target="_blank">
+                <button type="button" class="btn btn-danger px-4 py-2 my-4">
+                    <i class="bi bi-cart2 me-1"></i>
+                    <span>Buy Cartzilla</span>
+                </button>
+            </a>
+        </section>
+    </main>
+
+    <footer class="text-center py-5 text-secondary ">
+        <small class="d-flex align-items-center justify-content-center gap-1">
+            &copy; All rights reserved. Made by
+            <a class="text-secondary text-decoration-none" target="_blank"
+                href="https://createx.studio/?_gl=1*1ef5w5m*_ga*MTI3MDYxODAwNi4xNzA0OTkyNjkw*_ga_TXTBFKF5EW*MTcwNTA3OTM2OS42LjAuMTcwNTA3OTM2OS42MC4wLjA.">
+                Createx Studio
+            </a>
+        </small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
